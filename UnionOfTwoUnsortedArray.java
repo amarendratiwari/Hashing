@@ -10,11 +10,11 @@ public class UnionOfTwoUnsortedArray {
         int m = arr1.length;
         int n = arr2.length;
         
-        System.out.println(unionSize(arr1, m, arr2, n));
+        System.out.println(unionSize(arr1, arr2));
 
 	}
 
-	private static int unionSize(int[] arr1, int m, int[] arr2, int n) {
+	private static int unionSize(int[] arr1, int[] arr2) {
 		
 	
 		HashSet<Integer> set = new HashSet<Integer>();
